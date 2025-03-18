@@ -5,6 +5,9 @@ import {Main} from "./assets/layout/Sections/main/Main.tsx";
 import {Skills} from "./assets/layout/Sections/skills/Skills.tsx";
 import {Works} from "./assets/layout/Sections/works/Works.tsx";
 import {Testimony} from "./assets/layout/Sections/testimony/Testimony.tsx";
+import {Contact} from "./assets/layout/Sections/contacts/Contakts.tsx";
+import {Slogan} from "./assets/layout/Sections/slogan/Slogan.tsx";
+import {Footer} from "./assets/layout/footer/Footer.tsx";
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
             <Skills/>
             <Works/>
             <Testimony/>
+            <Contact/>
+            <Slogan/>
+            <Footer/>
         </div>
     )
 }
